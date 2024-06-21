@@ -36,5 +36,9 @@ Data source adapters are individual Python scripts that uploads data to the data
 These data sources are originally implemented by the server, but we decide to separate them into sub-projects for easier maintenance and task assignments to participants (so we can have undergraduate students work on the projects without messing with /breaking the server 🤣). This also allows loose-coupling between modules.
 ### Data Analysis / Visualization
 Just like data source adapters, we've separated the data analysis and visualization from the server package for the same reason.
+## Contributing to this Repository
+This repository provides a `.obsidian_example/` folder for obsidian users. **Copy** this folder to `.obsidian/` (Do not rename!) and open this repo in your Obsidian and you are good to go. Feel free to use your favorite configurations/plugins (they will be added to `.obsidian/` folder which is in `.gitignore`).
+You can create a daily journal in the `journals/` folder in the format `YYYY-MM-DD.md`, or simply use Obsidian's built in "daily note" feature (which is configured in the `.obsidian/` folder you copied).
+You can commit and push your code with Git, or using the [obsidian-git](https://github.com/denolehov/obsidian-git) plugin.
 ## Contributors
 <!-- TODO: Add contributors -->

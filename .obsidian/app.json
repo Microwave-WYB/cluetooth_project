@@ -1,8 +1,5 @@
 {
-  "vimMode": true,
-  "tabSize": 4,
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
-  "showLineNumber": true,
   "strictLineBreaks": true
 }
